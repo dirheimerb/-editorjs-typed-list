@@ -1,11 +1,11 @@
 {
-  "name": "@editorjs/typed-list",
+  "name": "editorjs-typed-list",
   "version": "1.0.0",
   "description": "Typed List Tool for Editor.js",
   "license": "MIT",
   "main": "./dist/index.js",
   "private": false,
-  
+
   "scripts": {
     "build": "tsc",
     "check": "tsc --noEmit",
