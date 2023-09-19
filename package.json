@@ -1,0 +1,41 @@
+{
+  "name": "@editorjs/typed-list",
+  "version": "1.0.0",
+  "description": "Typed List Tool for Editor.js",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "private": false,
+  
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "document": "typedoc --out docs src/index.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "editorjs",
+    "plugin",
+    "typed-list",
+    "typescript",
+    "list",
+    "tool",
+    "editor.js"
+  ],
+  "author": "Bradley Dirheimer",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typedoc": "0.25.1",
+    "typescript": "^5.2.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "singleAttributePerLine": true
+  },
+  "browserslist": "defaults, not ie <= 11"
+}
